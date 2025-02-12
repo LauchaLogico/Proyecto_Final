@@ -1,7 +1,3 @@
-# Proyecto_Final
-proyecto final de la carrera data scients de Henry 
-
-
 # Stack Tecnológico para Análisis y Visualización de Datos
 
 Este stack tecnológico se enfoca en el análisis, procesamiento y visualización de datos utilizando Python y un conjunto de librerías especializadas. A continuación, se describen los componentes del stack y sus funciones dentro de un flujo de trabajo típico.
