@@ -93,10 +93,13 @@ Este proyecto tiene como objetivo analizar el mercado estadounidense, evaluando 
 
 - **Objetivos del Proyecto:**
   - Analizar la opinión de usuarios de Yelp y Google Maps mediante análisis de sentimientos.
+  - Utilizar métodos estadísticos para analizar los datos numéricos
+  - Proponer un ranquin de comercios y de usuarios.
   - Predecir cuáles rubros de negocios (restaurantes, hoteles, etc.) tendrán mayor crecimiento o decaerán.
   - Identificar las ubicaciones óptimas para nuevos locales.
   - Desarrollar un sistema de recomendación basado en experiencias previas de los usuarios.
   - Incorporar datos adicionales (cotizaciones bursátiles, tendencias en redes sociales y medios) para enriquecer el análisis.
+  - Incorporar un analisis Socioeconómco
 
 - **Alcance:**
   - Fuentes de datos: datos estáticos, APIs, web scraping.
@@ -108,7 +111,7 @@ Este proyecto tiene como objetivo analizar el mercado estadounidense, evaluando 
 ## 2. Recolección y Disponibilización de Datos
 
 - **Identificación de Fuentes de Datos:**
-  - **Internas y externas:** Datos provistos por Henry, Yelp, Google Maps, cotizaciones bursátiles, tendencias en redes sociales y medios de comunicación.
+  - **Internas y externas:** Datos provistos por Henry, Yelp, Google Maps, cotizaciones bursátiles, tendencias en redes sociales y medios de comunicación. Datos de la poblacion obtenidas de los censos 
   - **Métodos de extracción:**
     - Datos estáticos.
     - Llamadas a APIs.
@@ -121,6 +124,7 @@ Este proyecto tiene como objetivo analizar el mercado estadounidense, evaluando 
 - **Integración y Calidad de Datos:**
   - Depurar y normalizar los datos para asegurar consistencia y calidad.
   - Aplicar técnicas de ETL (Extract, Transform, Load) para integrar datos de diversas fuentes.
+  - Limpieza de los datos eliminando columnas con datos que no serán utilizados. 
 
 ---
 
