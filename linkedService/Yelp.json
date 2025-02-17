@@ -1,0 +1,14 @@
+{
+	"name": "Yelp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Yelp",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

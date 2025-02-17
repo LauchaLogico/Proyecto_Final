@@ -1,0 +1,9 @@
+{
+	"name": "PedroGodoy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3fac1c34-5ae7-4da1-a985-f4000108c20d",
+		"tenantId": "ef4737f0-562a-45b1-8eb3-d04038da8779"
+	}
+}
