@@ -28,7 +28,7 @@
 						"type": "JsonSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "ingesta-datos/datos2_metadata-sitios_1.json",
+							"fileListPath": "ingesta-datos",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
