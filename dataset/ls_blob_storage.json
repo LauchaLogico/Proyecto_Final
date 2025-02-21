@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*",
+				"fileName": "*.json",
 				"folderPath": "*",
 				"container": "ingesta-datos"
 			}
