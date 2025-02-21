@@ -49,14 +49,23 @@
 							{
 								"source": {
 									"path": "$['business_id']"
+								},
+								"sink": {
+									"name": "id",
+									"type": "Int32"
 								}
 							},
 							{
 								"source": {
 									"path": "$['date']"
+								},
+								"sink": {
+									"name": "fecha",
+									"type": "DateTime"
 								}
 							}
-						]
+						],
+						"mapComplexValuesToString": false
 					}
 				},
 				"inputs": [
