@@ -28,9 +28,7 @@
 						"type": "JsonSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
-							"wildcardFolderPath": "**",
-							"wildcardFileName": "*.json",
+							"fileListPath": "ingesta-datos/datos2_metadata-sitios_1.json",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
