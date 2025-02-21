@@ -1,5 +1,5 @@
 {
-	"name": "Json1",
+	"name": "ls_blob_storage",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage2",

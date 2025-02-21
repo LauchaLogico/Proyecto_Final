@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "ETL_Blob_to_PostgreSQL",
 	"properties": {
 		"activities": [
 			{
@@ -46,11 +46,38 @@
 							"type": "JsonReadSettings"
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "AzurePostgreSQLSink",
+						"writeBatchSize": 1000000,
+						"writeBatchTimeout": "00:30:00",
+						"writeMethod": "CopyCommand"
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['business_id']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['date']"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "ls_blob_storage",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzurePostgreSqlTable1",
 						"type": "DatasetReference"
 					}
 				]
