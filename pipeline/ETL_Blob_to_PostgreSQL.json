@@ -29,7 +29,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"fileListPath": "*.*",
-							"enablePartitionDiscovery": false
+							"enablePartitionDiscovery": true,
+							"partitionRootPath": "ingesta-datos"
 						},
 						"formatSettings": {
 							"type": "JsonReadSettings"
