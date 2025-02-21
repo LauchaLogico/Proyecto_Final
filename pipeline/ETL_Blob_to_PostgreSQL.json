@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "ingesta-datos/*/*"
+					},
+					{
+						"name": "Destination",
+						"value": "public.datos"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "JsonSource",
