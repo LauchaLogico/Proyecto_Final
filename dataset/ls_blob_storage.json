@@ -11,6 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "*.json",
+				"folderPath": "*",
 				"container": "ingesta-datos"
 			}
 		},
