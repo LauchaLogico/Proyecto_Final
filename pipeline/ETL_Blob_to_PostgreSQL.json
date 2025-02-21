@@ -28,9 +28,10 @@
 						"type": "JsonSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "*.*",
-							"enablePartitionDiscovery": true,
-							"partitionRootPath": "ingesta-datos"
+							"recursive": true,
+							"wildcardFolderPath": "ingesta-datos",
+							"wildcardFileName": "*.*",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "JsonReadSettings"
