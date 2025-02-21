@@ -28,8 +28,7 @@
 						"type": "JsonSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
-							"wildcardFolderPath": "*.json",
+							"fileListPath": "ingesta-datos/",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
