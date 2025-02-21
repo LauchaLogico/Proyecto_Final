@@ -29,7 +29,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFolderPath": "*",
+							"wildcardFolderPath": "ingesta-datos",
 							"wildcardFileName": "*.json",
 							"enablePartitionDiscovery": true,
 							"partitionRootPath": "ingesta-datos"
