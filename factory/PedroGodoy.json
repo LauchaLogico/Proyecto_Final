@@ -4,7 +4,7 @@
 		"globalConfigurations": {
 			"factoryStagingLSReferenceName": "AzureBlobStorage2",
 			"factoryStagingLSType": "LinkedServiceReference",
-			"factoryStagingFolderPath": "ar"
+			"factoryStagingFolderPath": "archivosDestino"
 		}
 	},
 	"location": "eastus",
