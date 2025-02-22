@@ -15,40 +15,48 @@
 			"sinks": [
 				{
 					"dataset": {
-						"referenceName": "AzurePostgreSqlTable1",
+						"referenceName": "dataLakeDestino",
 						"type": "DatasetReference"
 					},
 					"name": "sink1"
 				}
 			],
-			"transformations": [],
+			"transformations": [
+				{
+					"name": "union1"
+				}
+			],
 			"scriptLines": [
 				"source(output(",
-				"          business_id as string,",
-				"          date as string",
+				"          name as string,",
+				"          address as string,",
+				"          gmap_id as string,",
+				"          description as string,",
+				"          latitude as double,",
+				"          longitude as double,",
+				"          category as string[],",
+				"          avg_rating as double,",
+				"          num_of_reviews as integer,",
+				"          price as string,",
+				"          hours as string[][],",
+				"          MISC as ({Service options} as string[], {Health & safety} as string[], Accessibility as string[], Planning as string[], Offerings as string[], Amenities as string[], Atmosphere as string[], Payments as string[], {Popular for} as string[], {Dining options} as string[], Crowd as string[], {From the business} as string[], Highlights as string[]),",
+				"          state as string,",
+				"          relative_results as string[],",
+				"          url as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false,",
 				"     documentForm: 'arrayOfDocuments') ~> source1",
-				"source1 sink(allowSchemaDrift: true,",
+				"source1 union(byName: true)~> union1",
+				"union1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     input(",
-				"          id as integer,",
-				"          nombre as string,",
-				"          edad as integer,",
-				"          ciudad as string",
-				"     ),",
-				"     deletable:false,",
-				"     insertable:true,",
-				"     updateable:false,",
-				"     upsertable:false,",
-				"     format: 'table',",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
 				"     mapColumn(",
 				"          id = business_id",
-				"     )) ~> sink1"
+				"     ),",
+				"     format: 'table') ~> sink1"
 			]
 		}
 	}

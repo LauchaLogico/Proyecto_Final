@@ -1,0 +1,19 @@
+{
+	"name": "dataLakeDestino",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Destino_AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "destino",
+				"container": "Destino"
+			}
+		},
+		"schema": {}
+	}
+}

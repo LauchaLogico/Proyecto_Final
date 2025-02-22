@@ -10,18 +10,148 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*.json",
-				"folderPath": "*",
+				"folderPath": "metadatos",
 				"container": "ingesta-datos"
 			}
 		},
 		"schema": {
 			"type": "object",
 			"properties": {
-				"business_id": {
+				"name": {
 					"type": "string"
 				},
-				"date": {
+				"address": {
+					"type": "string"
+				},
+				"gmap_id": {
+					"type": "string"
+				},
+				"description": {
+					"type": "null"
+				},
+				"latitude": {
+					"type": "number"
+				},
+				"longitude": {
+					"type": "number"
+				},
+				"category": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"avg_rating": {
+					"type": "number"
+				},
+				"num_of_reviews": {
+					"type": "integer"
+				},
+				"price": {
+					"type": "null"
+				},
+				"hours": {
+					"type": "array",
+					"items": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					}
+				},
+				"MISC": {
+					"type": "object",
+					"properties": {
+						"Service options": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Health & safety": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Accessibility": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Planning": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Offerings": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Amenities": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Atmosphere": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Payments": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Popular for": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Dining options": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Crowd": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"From the business": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"Highlights": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"state": {
+					"type": "string"
+				},
+				"relative_results": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"url": {
 					"type": "string"
 				}
 			}
