@@ -3,7 +3,11 @@ digraph DER_Yelp {
 (user_id, name, review_count, ...)" shape=box]
 	Business [label="Business
 <<<<<<< HEAD
+<<<<<<< HEAD
 (business_id, name, address, city, state, stars, review_count)" shape=box]
+=======
+(business_id)" shape=box]
+>>>>>>> 75880be813dd9c7dd37c071b50ddc8b6a4de3e39
 =======
 (business_id)" shape=box]
 >>>>>>> 75880be813dd9c7dd37c071b50ddc8b6a4de3e39
@@ -11,6 +15,7 @@ digraph DER_Yelp {
 (business_id, category, subcategory)" shape=box]
 	Checkin [label="Checkin
 (business_id, date, year, month)" shape=box]
+<<<<<<< HEAD
 <<<<<<< HEAD
 	Reviews [label="Reviews
 (review_id, user_id, business_id, stars, text, date)" shape=box]
@@ -20,6 +25,8 @@ digraph DER_Yelp {
 	Users -> Tips [label=gives]
 	Reviews -> Business [label=reviews]
 	Tips -> Business [label="tips about"]
+=======
+>>>>>>> 75880be813dd9c7dd37c071b50ddc8b6a4de3e39
 =======
 >>>>>>> 75880be813dd9c7dd37c071b50ddc8b6a4de3e39
 	Categories -> Business [label="belongs to"]
