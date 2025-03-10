@@ -1,0 +1,12 @@
+digraph DER_Yelp {
+	Users [label="Users
+(user_id, name, review_count, ...)" shape=box]
+	Business [label="Business
+(business_id)" shape=box]
+	Categories [label="Categories
+(business_id, category, subcategory)" shape=box]
+	Checkin [label="Checkin
+(business_id, date, year, month)" shape=box]
+	Categories -> Business [label="belongs to"]
+	Checkin -> Business [label="records visit"]
+}
