@@ -86,6 +86,9 @@ Este stack tecnológico se enfoca en el análisis, procesamiento y visualizació
 - **Python:**  
   Es el lenguaje principal del stack, ampliamente utilizado en ciencia de datos y análisis por su sintaxis sencilla y la gran cantidad de librerías disponibles.
 
+  **Dax**
+  Es el lenguaje de programacion que utiliza Power By, diseñado para la creación de medidas, columnas calculadas y tablas
+
 ---
 
 ## Resumen del Stack Tecnológico
