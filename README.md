@@ -77,9 +77,9 @@ Este stack tecnológico se enfoca en el análisis, procesamiento y visualizació
   - **Función:** Entrenamiento y despliegue de modelos de ML en la nube.
   - **Uso Típico:** Análisis de sentimientos, predicción de tendencias y sistemas de recomendación.
 
-- **Scikit-learn y TensorFlow:**
-  - **Función:** Implementación de modelos de aprendizaje supervisado y no supervisado.
-  - **Uso Típico:** Clasificación, regresión y clustering.
+- **NLTK:**
+  - **Función:** Procesamiento de lenguaje natural para análisis de textos y opiniones.
+  - **Uso Típico:** Tokenización, lematización y análisis de sentimientos en datos textuales.
 
 ---
 
@@ -100,14 +100,9 @@ Este stack tecnológico se enfoca en el análisis, procesamiento y visualizació
 - **Infraestructura:** Google Cloud Platform (Cloud Storage, BigQuery, Vertex AI, Google Functions)
 - **Procesamiento de Datos:** Pandas, Dask, BigQuery SDK
 - **Visualización:** Power BI, Matplotlib, Seaborn
-- **Machine Learning:** Vertex AI, Scikit-learn, TensorFlow
+- **Machine Learning:** Vertex AI, NLTK
 - **Despliegue:** Streamlit
 - **Monitoreo:** Google Cloud Logging y Monitoring
 
 Este stack optimiza el flujo de trabajo en la nube, facilitando la escalabilidad y automatización del análisis de datos, con visualización e interactividad mediante Power BI y Streamlit.
-
-
-8. **Monitorear y mantener** la solución de forma continua.
-
-Esta metodología integral permitirá abordar de forma estructurada y escalable los distintos objetivos planteados por el cliente, conectando el análisis de datos con estrategias de marketing y toma de decisiones en tiempo real.
 
