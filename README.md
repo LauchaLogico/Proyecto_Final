@@ -106,3 +106,8 @@ Este stack tecnológico se enfoca en el análisis, procesamiento y visualizació
 
 Este stack optimiza el flujo de trabajo en la nube, facilitando la escalabilidad y automatización del análisis de datos, con visualización e interactividad mediante Power BI y Streamlit.
 
+![Diagrama Tablas Power BI](Proyecto_Final/imagen.jpg)
+
+
+
+
