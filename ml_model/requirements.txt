@@ -1,0 +1,6 @@
+streamlit
+google-cloud-bigquery
+pandas
+textblob
+numpy
+nltk
