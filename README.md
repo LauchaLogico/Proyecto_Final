@@ -1,18 +1,5 @@
 # Stack Tecnológico para Análisis y Visualización de Datos
 
-Este stack tecnológico se enfoca en el análisis, procesamiento y visualización de datos utilizando Python y un conjunto de librerías especializadas. A continuación, se describen los componentes del stack y sus funciones dentro de un flujo de trabajo típico.
-
----
-
-## 1. Lenguaje de Programación
-
-- **Python:**  
-  Es el lenguaje principal del stack, ampliamente utilizado en ciencia de datos y análisis por su sintaxis sencilla y la gran cantidad de librerías disponibles.
-
----
-
-# Stack Tecnológico para Análisis y Visualización de Datos
-
 Este stack tecnológico se enfoca en el análisis, procesamiento y visualización de datos utilizando Google Cloud Services, Python y un conjunto de librerías especializadas. A continuación, se describen los componentes del stack y sus funciones dentro de un flujo de trabajo típico.
 
 ---
@@ -92,6 +79,12 @@ Este stack tecnológico se enfoca en el análisis, procesamiento y visualizació
 - **Google Cloud Logging y Monitoring:**
   - **Función:** Seguimiento y depuración de modelos y flujos de datos.
   - **Uso Típico:** Análisis de rendimiento y ajuste de modelos.
+
+---
+## 7. Lenguaje de Programación
+
+- **Python:**  
+  Es el lenguaje principal del stack, ampliamente utilizado en ciencia de datos y análisis por su sintaxis sencilla y la gran cantidad de librerías disponibles.
 
 ---
 
